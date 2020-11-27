@@ -23,7 +23,7 @@ The list of all materials can be found in [Required Materials.xlsx][MaterialList
 
 You can see a higher resolution version of the [**Schematic**][schem] and [**Animated Schematic**][schemAnim] or download the [**Fritzing (.fzz)**][Fritzing] file to edit them.
 
-If you decide to not use some not necessary parts just exclude them and their wires. If you upload the corresponding code for your changes everything should work just fine.
+If you decide to not use some of the unnecessary parts just exclude them and their wires. If you upload the corresponding code for your changes everything should work just fine.
 
 ## Code 
 After building the circuit it is time to test it.
@@ -42,6 +42,12 @@ Locate the code that corresponds to the parts you have excluded (if any), connec
 After you finish testing you can add more RGB fans or Led strips in series or parallel. You can now remove the cover of the back of your breadboard and stick it in one 2,5 inch drive bay of your computer. Or, if you are not using it in a computer, you can just place it wherever you want to. A trick of mine was to get some cables out of the PCIe ports and add more RGB to my desk that was synchronised with my pc. 
 
 If you are using the full or no LCD versions I recomend either making a stand with the three potentiometers and the LCD outside the PC or drilling holes on the top of your case and then placing the potentiometers and the LCD with their nuts and hot glue respectively. You can even add potentiometer knobs to make them look more professional.
+
+## Demo
+**Demo Image 1**|**Demo Image 2**  
+------------|-------------
+![GraphicalConnection](https://github.com/nickiliopoulosedu/PcRGB/blob/main/Images/Demo/PC_Demo_Side1.jpg)|![ScematicConnection](https://github.com/nickiliopoulosedu/PcRGB/blob/main/Images/Demo/PC_Demo_Side4.jpg)
+
 
 [MaterialList]: <https://github.com/nickiliopoulosedu/PcRGB/raw/main/Required%20Materials.xlsx>
 [schem]: <https://github.com/nickiliopoulosedu/PcRGB/raw/main/Images/Schematics_schem.png>
