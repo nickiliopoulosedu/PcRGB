@@ -30,12 +30,22 @@ After building the circuit it is time to test it.
 
 Locate the code that corresponds to the parts you have excluded (if any), connect to the Arduino via USB, select the port the Arduino is connected, change board to Arduino nano and the Processor (according to your board. I sugget figuring out which one you have with trial and error. Then, upload the sketch.
 
-### Choose the correct program to load
-* []
-- []mething
-- [ ]somehting else | tsiou
+### Choose the correct code to load
+| Code for component combinations | Features |
+| -----|----- |
+| [PcRGB_all][codeall]<ul><li>- [x] LCD</li><li>- [x] Potentiometers</li><li>- [x] Button</li></ul> | tsiou |
+| [PcRGB_noLCD][codenoLCD]<ul><li>- [ ] LCD</li><li>- [x] Potentiometers</li><li>- [x] Button</li></ul>| tsioue |
+| [PcRGB_noLCD_noPotentiometers][codenoLCDnoP]<ul><li>- [ ] LCD</li><li>- [ ] Potentiometers</li><li>- [x] Button</li></ul> | yeeeet|
+| [PcRGB_singleMode][codesingle]<ul><li>- [ ] LCD</li><li>- [ ] Potentiometers</li><li>- [ ] Button</li></ul> | aminaootwio
+  
+## Installation
+After you finish testing you can add more RGB fans or Led strips in series or parallel. You can now remove the cover of the back of your breadboard and stick it in one 2,5 inch drive bay of your computer. Or, if you are not using it in a computer, you can just place it wherever you want to. A trick of mine was to get some cables out of the PCIe ports and add more RGB to my desk that was synchronised with my pc.
 
 [MaterialList]: <https://github.com/nickiliopoulosedu/PcRGB/raw/main/Required%20Materials.xlsx>
 [schem]: <https://github.com/nickiliopoulosedu/PcRGB/raw/main/Images/Schematics_schem.png>
 [schemAnim]: <https://github.com/nickiliopoulosedu/PcRGB/raw/main/Images/Schematics_graphical.png>
 [Fritzing]: <https://github.com/nickiliopoulosedu/PcRGB/raw/main/Fritzing/Schematics.fzz>
+[codeall]: <https://github.com/nickiliopoulosedu/PcRGB/tree/main/Code/Arduino/PcRGB_all>
+[codenoLCD]: <https://github.com/nickiliopoulosedu/PcRGB/tree/main/Code/Arduino/PcRGB_noLCD>
+[codenoLCDnoP]: <https://github.com/nickiliopoulosedu/PcRGB/tree/main/Code/Arduino/PcRGB_noLCD_noPotentiometers>
+[codesingle]: <https://github.com/nickiliopoulosedu/PcRGB/tree/main/Code/Arduino/PcRGB_singleMode>
