@@ -46,7 +46,7 @@ If you are using the full or no LCD versions I recomend either making a stand wi
 ## Demo
 **Demo Image 1**|**Demo Image 2**  
 ------------|-------------
-![GraphicalConnection](https://github.com/nickiliopoulosedu/PcRGB/blob/main/Images/Demo/PC_Demo_Side1.jpg)|![ScematicConnection](https://github.com/nickiliopoulosedu/PcRGB/blob/main/Images/Demo/PC_Demo_Side4.jpg)
+![GraphicalConnection](Images/Demo/PC_Demo_Side1.jpg)|![ScematicConnection](Images/Demo/PC_Demo_Side4.jpg)
 
 
 [MaterialList]: <https://github.com/nickiliopoulosedu/PcRGB/raw/main/Required%20Materials.xlsx>
