@@ -2,8 +2,7 @@ theme: jekyll-theme-midnight
 name: Nikolaos Iliopoulos
 description: Custom RGB Controller
 show_downloads: true
-markdown: kramdown
-
+markdown: GFM
 footer-links:
   email: nilioprobots@gmail.com
   facebook: https://www.facebook.com/nikolaosiliopoulosrobotics
