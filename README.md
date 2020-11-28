@@ -10,7 +10,7 @@ We are using Arduino and some LED strips or fans.
 **There is a Bluetooth controlled version coming to which you will be able to upgrade from any of the current versions.**
 
 ## Required matterials
-![ListOfMaterials](https://github.com/nickiliopoulosedu/PcRGB/blob/main/Images/Reuired%20Materials.png)
+![ListOfMaterials](Images/Reuired%20Materials.png)
 
 The average total cost is around **24 dollars** including not required materials.
 
@@ -19,7 +19,7 @@ The list of all materials can be found in [Required Materials.xlsx][MaterialList
 ## Circuit
 **Animated**|**Schematic**  
 ------------|-------------
-![GraphicalConnection](https://github.com/nickiliopoulosedu/PcRGB/blob/main/Images/Schematics_graphical.png)|![ScematicConnection](https://github.com/nickiliopoulosedu/PcRGB/blob/main/Images/Schematics_schem.png)
+![GraphicalConnection](Images/Schematics_graphical.png)|![ScematicConnection](Images/Schematics_schem.png)
 
 You can see a higher resolution version of the [**Schematic**][schem] and [**Animated Schematic**][schemAnim] or download the [**Fritzing (.fzz)**][Fritzing] file to edit them.
 
