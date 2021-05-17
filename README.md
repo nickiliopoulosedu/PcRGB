@@ -33,11 +33,12 @@ Locate the code that corresponds to the parts you have excluded (if any), connec
 ### Choose the correct code to load
 | Code for component combinations | Features |
 | -----|----- |
-| [PcRGB_all][codeall]<ul><li>- [x] LCD</li><li>- [x] Potentiometers</li><li>- [x] Button</li></ul> | <ul><li>- [x] Display</li><li>-[x] Manual</li><li>- [x] Breath<ul><li>- [x] Software Control</li><li>- [x] Manual Control</li></ul></li><li>- [x] Color Wheel (Rainbow Effect)</li></ul> |
-| [PcRGB_noLCD][codenoLCD]<ul><li>- [ ] LCD</li><li>- [x] Potentiometers</li><li>- [x] Button</li></ul>| <ul><li>- [ ] Display</li><li>-[x] Manual</li><li>- [x] Breath<ul><li>- [x] Software Control</li><li>- [x] Manual Control</li></ul></li><li>- [x] Color Wheel (Rainbow Effect)</li></ul> |
-| [PcRGB_noLCD_noPotentiometers][codenoLCDnoP]<ul><li>- [ ] LCD</li><li>- [ ] Potentiometers</li><li>- [x] Button</li></ul> | <ul><li>- [ ] Display</li><li>-[ ] Manual</li><li>- [x] Breath<ul><li>- [x] Software Control</li><li>- [ ] Manual Control</li></ul></li><li>- [x] Color Wheel (Rainbow Effect)</li></ul> |
-| [PcRGB_singleMode][codesingle]<ul><li>- [ ] LCD</li><li>- [ ] Potentiometers</li><li>- [ ] Button</li></ul> | <ul><li>- [ ] Display</li><li>-[ ] Manual</li><li>- [x] \*Breath<ul><li>- [x] Software Control</li><li>- [ ] Manual Control</li></ul></li><li>- [x] \*Color Wheel (Rainbow Effect)</li></ul> \*You will have to choose between Color Wheel and Breath effects each time you load the code |
-  
+| [PcRGB_all][codeall]<ul><li>- [x] LCD</li><li>- [x] Potentiometers</li><li>- [x] Button</li></ul> | <ul><li>- [x] Display</li><li>-[x] Manual</li><li>- [x] Breath<ul><li>- [x] Software Control</li><li>- [x] Manual Control</li></ul></li><li>- [x] Color Wheel (Rainbow Effect)</li><li>- [ ] Bluetooth Control</li></ul> |
+| [PcRGB_noLCD][codenoLCD]<ul><li>- [ ] LCD</li><li>- [x] Potentiometers</li><li>- [x] Button</li></ul>| <ul><li>- [ ] Display</li><li>-[x] Manual</li><li>- [x] Breath<ul><li>- [x] Software Control</li><li>- [x] Manual Control</li></ul></li><li>- [x] Color Wheel (Rainbow Effect)</li><li>- [ ] Bluetooth Control</li></ul> |
+| [PcRGB_noLCD_noPotentiometers][codenoLCDnoP]<ul><li>- [ ] LCD</li><li>- [ ] Potentiometers</li><li>- [x] Button</li></ul> | <ul><li>- [ ] Display</li><li>-[ ] Manual</li><li>- [x] Breath<ul><li>- [x] Software Control</li><li>- [ ] Manual Control</li></ul></li><li>- [x] Color Wheel (Rainbow Effect)</li><li>- [ ] Bluetooth Control</li></ul> |
+| [PcRGB_singleMode][codesingle]<ul><li>- [ ] LCD</li><li>- [ ] Potentiometers</li><li>- [ ] Button</li></ul> | <ul><li>- [ ] Display</li><li>-[ ] Manual</li><li>- [x] \*Breath<ul><li>- [x] Software Control</li><li>- [ ] Manual Control</li></ul></li><li>- [x] \*Color Wheel (Rainbow Effect)</li><li>- [ ] Bluetooth Control</ul> \*You will have to choose between these effects each time you load the code |
+| [PcRGB_Bluetooth][codebluetooth]<ul><li>- [ ] LCD</li><li>- [ ] Potentiometers</li><li>- [ ] Button</li></ul> | <ul><li>- [ ] Display</li><li>-[x] \*Manual</li><li>- [ ] Breath<ul><li>- [ ] Software Control</li><li>- [ ] Manual Control</li></ul></li><li>- [x] \*Color Wheel (Rainbow Effect)</li><li>- [ ] Bluetooth Control</ul> \*You can only change modes with your android device over bluetooth|
+
 ## Installation
 After you finish testing you can add more RGB fans or Led strips in series or parallel. You can now remove the cover of the back of your breadboard and stick it in one 2,5 inch drive bay of your computer. Or, if you are not using it in a computer, you can just place it wherever you want to. A trick of mine was to get some cables out of the PCIe ports and add more RGB to my desk that was synchronised with my pc. 
 
@@ -57,3 +58,4 @@ If you are using the full or no LCD versions I recomend either making a stand wi
 [codenoLCD]: <https://github.com/nickiliopoulosedu/PcRGB/tree/main/Code/Arduino/PcRGB_noLCD>
 [codenoLCDnoP]: <https://github.com/nickiliopoulosedu/PcRGB/tree/main/Code/Arduino/PcRGB_noLCD_noPotentiometers>
 [codesingle]: <https://github.com/nickiliopoulosedu/PcRGB/tree/main/Code/Arduino/PcRGB_singleMode>
+[codebluetooth]: <https://github.com/nickiliopoulosedu/PcRGB/tree/main/Code/Arduino/PcRGB_bluetooth>
