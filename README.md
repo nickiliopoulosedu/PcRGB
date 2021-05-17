@@ -44,6 +44,8 @@ After you finish testing you can add more RGB fans or Led strips in series or pa
 
 If you are using the full or no LCD versions I recomend either making a stand with the three potentiometers and the LCD outside the PC or drilling holes on the top of your case and then placing the potentiometers and the LCD with their nuts and hot glue respectively. You can even add potentiometer knobs to make them look more professional.
 
+If your are using **Bluetooth** here is the download [link][applinkapk] for the android application and the [link][applinkaia] for the app inventor project to make changes.
+
 ## Demo
 **Demo Image 1**|**Demo Image 2**  
 ------------|-------------
@@ -60,3 +62,5 @@ If you are using the full or no LCD versions I recomend either making a stand wi
 [codesingle]: <https://github.com/nickiliopoulosedu/PcRGB/tree/main/Code/Arduino/PcRGB_singleMode>
 [codebluetooth]: <https://github.com/nickiliopoulosedu/PcRGB/tree/main/Code/Arduino/PcRGB_Bluetooth>
 [changebaudrate]: <https://www.youtube.com/watch?v=EHljQ0Bn3Dk&ab_channel=DPVTECHNOLOGY>
+[applinkapk]: <https://drive.google.com/file/d/15WWtQmmYm5GZLDe1lHzFU-_gRE33fO9J/view?usp=sharing>
+[applinkaia]: <https://drive.google.com/file/d/1GPoAXJ0OApr9SofrFa_dBZrjYfkrJJzG/view?usp=sharing>
