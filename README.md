@@ -7,8 +7,6 @@ Your gaming PC doesn't have RGB?! Just buy some! But what if your motherboard do
 This tutorial shows you how you can create your own RGB controller for use anywhere in your house. Including your gaming PC with little if ANY cost.
 We are using Arduino and some LED strips or fans.
 
-**There is a Bluetooth controlled version coming to which you will be able to upgrade from any of the current versions.**
-
 ## Required matterials
 ![ListOfMaterials](Images/Reuired%20Materials.png)
 
@@ -17,6 +15,8 @@ The average total cost is around **24 dollars** including not required materials
 The list of all materials can be found in [Required Materials.xlsx][MaterialList]
 
 ## Circuit
+**You do not need to build the whole circuit, you can define which parts you need over to the code section**
+
 **Animated**|**Schematic**  
 ------------|-------------
 ![GraphicalConnection](Images/Schematics_graphical.png)|![ScematicConnection](Images/Schematics_schem.png)
