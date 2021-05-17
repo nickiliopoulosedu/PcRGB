@@ -58,5 +58,5 @@ If you are using the full or no LCD versions I recomend either making a stand wi
 [codenoLCD]: <https://github.com/nickiliopoulosedu/PcRGB/tree/main/Code/Arduino/PcRGB_noLCD>
 [codenoLCDnoP]: <https://github.com/nickiliopoulosedu/PcRGB/tree/main/Code/Arduino/PcRGB_noLCD_noPotentiometers>
 [codesingle]: <https://github.com/nickiliopoulosedu/PcRGB/tree/main/Code/Arduino/PcRGB_singleMode>
-[codebluetooth]: <https://github.com/nickiliopoulosedu/PcRGB/tree/main/Code/Arduino/PcRGB_bluetooth>
+[codebluetooth]: <https://github.com/nickiliopoulosedu/PcRGB/tree/main/Code/Arduino/PcRGB_Bluetooth>
 [changebaudrate]: <https://www.youtube.com/watch?v=EHljQ0Bn3Dk&ab_channel=DPVTECHNOLOGY>
